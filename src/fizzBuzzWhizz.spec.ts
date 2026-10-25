@@ -14,8 +14,8 @@ describe('FizzBuzzWhizz Game', () => {
     [20, 'Buzz'],
     [30, 'FizzBuzz'],
     [75, 'FizzBuzz'],
-    [97, 'Whizz'],     // primo grande
-    [1000, 'Buzz'],    // múltiplo de 5 grande
+    [97, 'Whizz'],     // large prime number
+    [1000, 'Buzz'],    //Large multiple of 5
   ])('game(%i) should return %s', (input, expected) => {
     expect(game(input)).toEqual(expected);
   });
